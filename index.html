@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trivia_NH!</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+<div class="jumbotron text-center">
+    <h1 id="title">Totally Trivial Trivia!</h1>
+ 
+    
+        
+
+    <div>
+        <button type="button" class="btn btn-lg" id="startButton">Go!</button>
+        <button type="button" class="btn btn-lg" id="pause">Pause</button>
+        <button type="button" class="btn btn-lg" id="resume">Resume</button>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-3 text-left" id="timer"><p>Timer: 10</p></div>
+        <div class="col-md-3 text-center" id="right"><p>Correct: 0</p></div>
+        <div class="col-md-3 text-center" id="wrong"><p>Wrong: 0</p></div>
+        <div class="col-md-3 text-right" id="missed"><p>Missed Questions: 0</p></div>
+    </div>
+    <div id="alertDiv">
+        
+    </div>
+
+    <div id="main">
+        <div class="text-center" id="category"></div>
+        <div id="question"></div>
+        <div id="ans0" class="ansOptions"></div>
+        <div id="ans1" class="ansOptions"></div>
+        <div id="ans2" class="ansOptions"></div>
+        <div id="ans3" class="ansOptions"></div>
+    </div>
+
+</div>
+
+</div>
+  <script src="assets/javascript/app.js"></script>
+</body>
+</html>

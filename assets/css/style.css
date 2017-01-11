@@ -11,20 +11,17 @@ body{
     background-size: cover;
 }
 
-form {
-    font-size: 16px;
-}
-
-select {
-    background-color: transparent;
-    border-color: #b0e0e6;
-    border-width: 2px;
-}
 
 button {
+
     background-color: transparent;
     border-color: #b0e0e6;
-    border-width: 2px;
+    border-width: 4px;
+}
+.btn-lg{
+    padding: 15px 15px;
+    width: 250px;
+    font-size: 24px;
 }
 
 div {
@@ -39,32 +36,21 @@ div {
 .jumbotron {
     background-color: white;
     opacity: 0.9;
-    padding-top: 0;
     margin-bottom: 0;
 }
 
-#title, #category, #question, #answer0, #answer1, #answer2, #answer3 {
+#category, #question, {
     padding-bottom: 10px;
 }
 
 .ansOptions {
+    color: rgb(75,0,35);
     cursor: pointer;
 }
 
 .ansOptions:hover {
     color: green;
+    font-weight: bold;
     -webkit-animation:bounceOut .4s linear;
 }
 
-#game-alert {
-    height: 300px;
-    position: absolute;
-    width: 540px;
-    border: 3px solid #b0e0e6;
-    border-radius: 15px;
-    margin: 0;
-    padding: 0;
-    background-color: grey;
-    z-index: 11;
-    left: 469px;
-}

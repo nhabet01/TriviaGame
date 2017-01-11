@@ -10,38 +10,18 @@
 </head>
 <body>
 <div class="container">
-<div class="jumbotron text-center">
-    <h1 id="title">Totally Trivial Trivia!</h1>
- 
-    
+    <div class="jumbotron text-center">
+        <h1 id="title">Totally Trivial Trivia!</h1>
         
+        <div id="timer"></div>
+        <div id="main">
+            <div>
+                <button type="button" class="btn btn-lg" class="resetButton" id="startButton">Start!</button>
 
-    <div>
-        <button type="button" class="btn btn-lg" id="startButton">Go!</button>
-        <button type="button" class="btn btn-lg" id="pause">Pause</button>
-        <button type="button" class="btn btn-lg" id="resume">Resume</button>
-    </div>
-    
-    <div class="row">
-        <div class="col-md-3 text-left" id="timer"><p>Timer: 10</p></div>
-        <div class="col-md-3 text-center" id="right"><p>Correct: 0</p></div>
-        <div class="col-md-3 text-center" id="wrong"><p>Wrong: 0</p></div>
-        <div class="col-md-3 text-right" id="missed"><p>Missed Questions: 0</p></div>
-    </div>
-    <div id="alertDiv">
-        
-    </div>
+            </div>
+        </div>
 
-    <div id="main">
-        <div class="text-center" id="category"></div>
-        <div id="question"></div>
-        <div id="ans0" class="ansOptions"></div>
-        <div id="ans1" class="ansOptions"></div>
-        <div id="ans2" class="ansOptions"></div>
-        <div id="ans3" class="ansOptions"></div>
     </div>
-
-</div>
 
 </div>
   <script src="assets/javascript/app.js"></script>

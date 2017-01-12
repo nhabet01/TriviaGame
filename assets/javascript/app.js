@@ -214,7 +214,7 @@ var qsArray = [];
     // I feel like this is redundant since a global startButton is declared and the  
     //  onclick fxn below should recognize this button....maybe necessary because after #main div is cleared, the 
     // new startButton variable is only visible in this fxn--not so for "right", "wrong" etc  
-    // is the onclick fxn the issue?
+    // is the onclick fxn the issue?--
     var startButton=document.getElementById("startButton");
     startButton.onclick = function(){
       questionCount = 0;
@@ -226,6 +226,7 @@ var qsArray = [];
       startButton.disabled=false;
     }
   
+// .on("click") check out w3c validator.
 
   }
 
